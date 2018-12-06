@@ -1,12 +1,14 @@
-const { main } = require('./main.js');
+const {
+    main
+} = require('./main.js');
+const input = require('./input.js');
 
 function getInput() {
-    var input;
-    // How to get input, eg. from file, commandline, inquierer, etc.
+    var input = input();
     return input;
 }
 
-function getOutput (output) {
+function getOutput(output) {
     // How to output data, eg. to csv, to json, to console, etc.
     return;
 }
