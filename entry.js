@@ -4,8 +4,8 @@ const {
 const input = require('./input.js');
 
 function getInput() {
-    var input = input();
-    return input;
+    var courseNumber = input();
+    return courseNumber;
 }
 
 function getOutput(output) {
@@ -14,7 +14,7 @@ function getOutput(output) {
 }
 
 (function () {
-    const input = getInput();
-    const output = main(input);
+    const courseNumber = getInput();
+    const output = main(courseNumber);
     getOutput(output);
 })()
